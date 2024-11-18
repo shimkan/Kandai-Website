@@ -1,0 +1,11 @@
+#top_header {
+  background-color: rgb(185, 179, 175);
+  border: 1px solid #665544;
+  padding: 10px;
+}
+
+#name_audio_button {
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+}
