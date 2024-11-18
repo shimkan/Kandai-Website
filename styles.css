@@ -9,3 +9,9 @@
   height: 20px;
   border-radius: 10px;
 }
+
+body {
+  background-color: #368C8C;
+  opacity: 0.9;
+  font-family: Arial;
+}
