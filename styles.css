@@ -2,6 +2,7 @@
   background-color: rgb(185, 179, 175);
   border: 1px solid #665544;
   padding: 10px;
+  text-align: center;
 }
 
 #name_audio_button {
@@ -13,8 +14,25 @@
 body {
   background-color: #368C8C;
   opacity: 0.9;
-  font-family: source_code_proregular;
+  font-family: source_code_proregular, monospace;
   font-size: 12px;
+}
+
+.box {
+  color: black;
+  border: 8px solid black;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.Experiences {
+  display: flex;
+  border: 8px solid black;
+  justify-content: space-evenly;
+  min-height: 400px;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 @font-face {

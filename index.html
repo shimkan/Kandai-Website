@@ -7,6 +7,7 @@
   </title> <link href="styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+    <div class="container">
     <h2 lang="en-us" id="top_header">
       Kandai Shimada | <audio src="audio/Bee Gees - Stayin' Alive (Official Video).mp3" controls id="name_audio_button"></audio> | <a href="https://www.linkedin.com/in/kandai-shimada-63a645187/" target="_blank">
         LinkedIn | <a href="https://github.com/shimkan" target="_blank"> github
@@ -28,38 +29,34 @@
         SAAS
         </acronym>
         companies are oversaturated right now -->
-        <hr />
       </p>
-    <h2 id="Experiences">
+    <h2 id="Exp">
       Experiences
     </h2>
-      <dl>
-        <dd><img src="images/amazon_logo.jpg" alt="amazon logo" height="50" width="50">
+      <dl class="Experiences">
+        <div class="box">
+        <dd><!--<img src="images/amazon_logo.jpg" alt="amazon logo" height="50" width="50">-->
           <b>Amazon | Robotics Engineer Intern</b></dd> 
         <ul>
           <dd><li>Developed a machine learning model using <i>PyTorch</i></li></dd>
           <dd><li>Utilized <i>SageMaker</i>, <i>S3</i>, and <i>AWS Python SDK</i></li></dd>
           <dd><li>Presented solution to international stakeholders and customers</i></li></dd>
         </ul>
+        </div>
+        <div class="box">
         <dd><b> Astrolabe Analytics | Data Engineer Intern</b></dd>
         <ul>
           <dd><li>API Development using Flask and FastAPI</li></dd>
           <dd><li>Implementing Data Pipelines with AWS solutions</li></dd>
         </ul>
+        </div>
+        <div class="box">
         <dd><a href="wave_gauge_page/index.html"><b>UW RAPID Facility | Undergraduate Research Assistant</b></a></dd>
           <ul>
             <dd><li>MCU development and fabrication engineering</li></dd>
-            <p>
-              making <br />
-              page  <br />
-              longer <br />
-              so <br />
-              they <br />
-              have <br />
-              to <br />
-              <b id="bottom">scroll</b> <br />
-            </p>
           </ul>
+        </div>
       </dl>
+    </div>
   </body>
 </html>
