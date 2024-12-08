@@ -2,15 +2,14 @@
   padding: 40px;
   display: inline-block;
   border-style: solid;
-  margin-top: 25px;
-  margin-left: 50px;
+  margin: 50px;
+  text-align: center;
 }
 
 #name-heading {
   font-size: 30px;
   margin: 0px;
   display: inline-block;
-  align-items: center;
 }
 
 #name-audio-button {
@@ -29,9 +28,12 @@
 #intro-list {
   list-style-type: none;
   padding: 0px;
+  padding-left: 110px;
   margin: 5px;
+  text-align: left;
 }
 
 #intro-list li {
   margin-bottom: 5px;
+
 }
