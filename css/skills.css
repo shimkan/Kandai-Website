@@ -1,11 +1,7 @@
 .tech-skills {
   display: inline-block;
   border-style: solid;
-  position: absolute;
-  top: 150px;
-  left: 650px;
   padding-left: 10px;
-
 }
 
 #tech-skill-title {
