@@ -7,16 +7,19 @@ p {
 body {
   font-family: source_code_proregular, monospace;
   font-size: 12px;
+  margin: 0px;
 }
 
-.first-page {
+/**.first-page {
   background-image: url('../images/background.jpg');
-}
+  background-size: cover;
+}**/
 
 .first-row {
-  position: absolute;
-  top: 170px;
-  left: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  margin-right: 100px;
 }
 
 @font-face {
