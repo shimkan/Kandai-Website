@@ -9,6 +9,10 @@ body {
   font-size: 12px;
 }
 
+.first-page {
+  background-image: url('../images/background.jpg');
+}
+
 .first-row {
   position: absolute;
   top: 170px;
