@@ -26,6 +26,11 @@
   display: block;
 }
 
+.skills-grid-third-row {
+  display: block;
+}
+
 .skills-images {
   margin: 10px;
+  display: inline-block;
 }
