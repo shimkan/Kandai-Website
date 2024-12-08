@@ -11,6 +11,13 @@
   border-radius: 10px;
 }
 
+#experiences_button {
+  background-color: #79d5d5;
+  color: rgb(78, 71, 71);
+  border: none;
+  height: 25px;
+}
+
 body {
   background-color: #368C8C;
   opacity: 0.9;
