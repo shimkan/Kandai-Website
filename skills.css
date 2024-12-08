@@ -1,8 +1,4 @@
 .tech-skills {
-  padding: 200px;
-  padding-top: 30px;
-  padding-right: 150px;
-  padding-left: 150px;
   display: inline-block;
   border-style: solid;
   position: absolute;
@@ -12,4 +8,7 @@
 
 #tech-skill-title {
   font-size: 30px;
+  padding-top: 30px;
+  padding-right: 150px;
+  padding-left: 150px;
 }
