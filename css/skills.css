@@ -4,6 +4,8 @@
   position: absolute;
   top: 150px;
   left: 650px;
+  padding-left: 10px;
+
 }
 
 #tech-skill-title {
@@ -11,4 +13,8 @@
   padding-top: 30px;
   padding-right: 150px;
   padding-left: 150px;
+}
+
+.skills-images {
+  margin: 10px;
 }
