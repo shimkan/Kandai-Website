@@ -1,0 +1,28 @@
+.tech-skills {
+  padding: 2rem;
+  margin-top: 0rem;
+  margin: 3rem;
+  border-style: solid;
+}
+
+#tech-skill-title {
+  font-size: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.skills-grid-rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skills-images {
+  margin: 2rem;
+  place-self: center;
+}

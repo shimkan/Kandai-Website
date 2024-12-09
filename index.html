@@ -1,58 +1,105 @@
 <!DOCTYPE html>
+<html>
   <head>
     <meta name="description" content="Kandai Shimada Website" />
     <meta http-equiv="author" content="Kandai Shimada" />
-  <title>
-    Kandai Shimada Website
-  </title> <link href="styles.css" type="text/css" rel="stylesheet" />
+    <link href="css/intro_box.css" type="text/css" rel="stylesheet" />
+    <link href="css/website.css" type="text/css" rel="stylesheet" />
+    <link href="css/skills.css" type="text/css" rel="stylesheet" />    
+    <link href="css/about_me.css" type="text/css" rel="stylesheet" /> 
+    <title>
+      Kandai Shimada Website
+    </title> 
   </head>
   
   <body>
-    <div class="container">
-    <h2 lang="en-us" id="top_header">
-      Kandai Shimada | <audio src="audio/Bee Gees - Stayin' Alive (Official Video).mp3" controls id="name_audio_button"></audio> | <a href="https://www.linkedin.com/in/kandai-shimada-63a645187/" target="_blank">
-        LinkedIn | <a href="https://github.com/shimkan" target="_blank"> github
-      </a>
-    </h2>
-     <h4>
-        <a href="mailto:kandai2003@gmail.com">
-          kandai2003@gmail.com
-        </a>
-      </h4>
-      <p>
-        Welcome to my webpage where we explore my experiences
-        <br />
-        <dl>
-          <a href=#Experiences><dd><button id="experiences_button">Experiences</button></dd></a>
-          <a href=#bottom><dd>Bottom</dd></a>
-        </dl>
-      </p>
-    <h2 id="Exp">
-      Experiences
-    </h2>
-      <div class="Experiences">
-        <div class="box" style="text-align:left;">
-        <dd><!--<img src="images/amazon_logo.jpg" alt="amazon logo" height="50" width="50">-->
-          <b>Amazon | Robotics Engineer Intern</b></dd> 
-        <ul>
-          <dd></dd></ddstyle><li>Developed a machine learning model using <i>PyTorch</i></li></dd>
-          <dd></dd></ddstyle><li>Utilized <i>SageMaker</i>, <i>S3</i>, and <i>AWS Python SDK</i></li></dd>
-          <dd></dd></ddstyle><li>Presented solution to international stakeholders and customers</i></li></dd>
-        </ul>
-        </div>
-        <div class="box">
-        <dd><b> Astrolabe Analytics | Data Engineer Intern</b></dd>
-        <ul>
-          <dd><li>API Development using Flask and FastAPI</li></dd>
-          <dd><li>Implementing Data Pipelines with AWS solutions</li></dd>
-        </ul>
-        </div>
-        <div class="box">
-        <dd><a href="wave_gauge_page/index.html"><b>UW RAPID Facility | Undergraduate Research Assistant</b></a></dd>
-          <ul>
-            <dd><li>MCU development and fabrication engineering</li></dd>
+    <!-- first section: Intro and Tech Skills -->
+    <div class="first-page">
+      <div class="first-row">
+        <div class="intro-box">
+          <h3 id="name-heading">
+            Kandai Shimada <button id="name-audio-button"></button>
+            <audio id="audio-name" src="audio/Bee Gees - Stayin' Alive (Official Video).mp3"></audio>
+          </h3>
+          <ul id = "intro-list">
+            <li>BS | Electrical and Computer Engineering</li>
+            <li>University of Washington | December 2024</li>
+            <li>Current: Data Engineer @ Astrolabe </li>
           </ul>
         </div>
+        <div class="tech-skills">
+          <p id="tech-skill-title"><b>Tech Skills</b></p>
+          <div class="skills-grid">
+            <div class="skills-grid-rows" id="skills-grid-first-row">
+              <img class="skills-images"
+              loading="lazy"
+              alt="Python"
+              src="images/skill_logos/icons8-python-96.png">
+              <img class="skills-images"
+              loading="lazy"
+              alt="C"
+              src="images/skill_logos/icons8-c-96.png">
+              <img class="skills-images"
+              loading="lazy"
+              alt="PyTorch"
+              src="images/skill_logos/icons8-pytorch-96.png">
+            </div>
+            <div class="skills-grid-rows" id="skills-grid-second-row">
+              <img class="skills-images"
+              loading="lazy"
+              alt="TensorFlow"
+              src="images/skill_logos/icons8-tensorflow-96.png">
+              <img class="skills-images"
+              loading="lazy"
+              alt="fast-api"
+              src="images/skill_logos/icons8-java-96.png">
+              <img class="skills-images"
+              loading="lazy"
+              alt="git"
+              src="images/skill_logos/icons8-git-100.png">
+            </div>
+            <div class="skills-grid-rows" id="skills-grid-third-row">
+              <img class="skills-images"
+              loading="lazy"
+              alt="HTML"
+              src="images/skill_logos/icons8-html-96.png">
+              <img class="skills-images"
+              loading="lazy"
+              alt="CSS"
+              src="images/skill_logos/icons8-css-96.png">
+              <img class="skills-images"
+              loading="lazy"
+              alt="fast-API"
+              src="images/skill_logos/fast_api (1).png">
+            </div>
+            <div class="skills-grid-rows" id="skills-grid-fourth-row">
+              <img class="skills-images"
+              loading="lazy"
+              alt="MATLAB"
+              src="images/skill_logos/icons8-matlab-96.png">
+              <img class="skills-images"
+              loading="lazy"
+              alt="Arduino"
+              src="images/skill_logos/icons8-arduino-96.png">
+              <img class="skills-images"
+              loading="lazy"
+              alt="AWS"
+              src="images/skill_logos/icons8-aws-96.png">
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+
+    <!-- second section: About Me -->
+    <div class="second-page">
+      <h1 style="text-align:center;">About Me</h1>
+      <div class="three-principles">
+        <div class="ind-principles" id="principle 1">1</div>
+        <div class="ind-principles" id="principle 2">2</div>
+        <div class="ind-principles" id="principle 3">3</div>
+      </div>
+    </div>
+  
   </body>
 </html>
