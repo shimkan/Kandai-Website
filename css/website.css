@@ -1,4 +1,8 @@
 /* resetting default margins */
+html {
+  font-size: 62.5%;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -6,20 +10,14 @@ p {
 
 body {
   font-family: source_code_proregular, monospace;
-  font-size: 12px;
-  margin: 0px;
+  font-size: 1.2rem;
+  margin: 0rem;
 }
-
-/**.first-page {
-  background-image: url('../images/background.jpg');
-  background-size: cover;
-}**/
 
 .first-row {
   display: grid;
-  grid-template-columns: 700px 1fr;
-  margin-top: 100px;
-  margin-right: 100px;
+  grid-template-columns: 1fr 1fr;
+  margin: 15rem;
 }
 
 @font-face {

@@ -1,39 +1,38 @@
 .intro-box {
-  padding: 40px;
-  display: inline-block;
+  padding: 2.5rem;
+  display: grid;
+  grid-template-rows: 5rem 1fr;
   border-style: solid;
-  margin: 50px;
+  margin: 4rem;
   text-align: center;
 }
 
 #name-heading {
-  font-size: 30px;
-  margin: 0px;
+  font-size: 3rem;
+  margin: 0;
   display: inline-block;
 }
 
 #name-audio-button {
-  margin-left: 0px;
-  width: 35px;
-  height: 35px;
-  border: 2px solid rgb(147, 144, 144);
-  border-radius: 50px;
+  margin-left: 0;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 0.2rem solid rgb(147, 144, 144);
+  border-radius: 5rem;
 }
 
 #name-audio-button:hover {
   transition: box-shadow 0.2s ease;
-  box-shadow: 0px 0px 7px black;
+  box-shadow: 0 0 0.7rem black;
 }
 
 #intro-list {
   list-style-type: none;
-  padding: 0px;
-  padding-left: 110px;
-  margin: 5px;
-  text-align: left;
+  padding: 0rem;
+  margin: 0.5rem;
 }
 
 #intro-list li {
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 
 }
