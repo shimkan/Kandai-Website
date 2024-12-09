@@ -1,35 +1,26 @@
 .tech-skills {
-  display: inline-block;
   border-style: solid;
-  padding: 1rem;
+  padding: 2rem;
   margin-top: 0rem;
-  margin-left: 2.5rem;
-  vertical-align: top;
+  margin: 3rem;
 }
 
 #tech-skill-title {
-  font-size: 4rem;
-  padding-top: 2rem;
+  font-size: 5rem;
+  padding-top: 1rem;
   text-align: center;
 }
 
 .skills-grid {
-  display: block;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
-.skills-grid-first-row {
-  display: block;
-}
-
-.skills-grid-second-row {
-  display: block;
-}
-
-.skills-grid-third-row {
-  display: block;
+.skills-grid-rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .skills-images {
-  margin: 1rem;
-  display: inline-block;
+  margin: 2rem;
 }
