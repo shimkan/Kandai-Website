@@ -1,25 +1,25 @@
 .intro-box {
   padding: 2.5rem;
-  padding-top: 25rem;
+  padding-top: 15rem;
   display: grid;
   grid-template-rows: 0.2fr 1fr;
   border-style: solid;
-
   margin: 3rem;
   text-align: center;
 }
 
 #name-heading {
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   margin: 0rem;
 }
 
 #name-audio-button {
-  margin-left: 0rem;
-  width: 5rem;
-  height: 5rem;
+  margin-left: 1rem;
+  width: 6rem;
+  height: 6rem;
   border: 0.2rem solid rgb(147, 144, 144);
   border-radius: 5rem;
+  text-align: center;
 }
 
 #name-audio-button:hover {
@@ -31,7 +31,7 @@
   list-style-type: none;
   padding: 1rem;
   margin: 0.5rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 #intro-list li {
