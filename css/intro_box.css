@@ -8,9 +8,22 @@
   text-align: center;
 }
 
-.reachout-logos {
+.reachout-logo-box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem;
+}
+
+.linkedin-logo {
+  justify-self: end;
+}
+
+.github-logo {
+  margin-top: 0.4rem;
+}
+
+.gmail-logo {
+  justify-self: start;
 }
 
 #name-heading {
