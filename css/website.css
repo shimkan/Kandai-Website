@@ -24,12 +24,12 @@ body {
 }
 
 .first-page {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background/background.jpg);
   color: rgb(231, 227, 227);
 }
 
 .second-page {
-  background-image: url(../images/background_2.jpg);
+  background-image: url(../images/background/background_2.jpg);
   color: rgb(231, 227, 227);
 }
 

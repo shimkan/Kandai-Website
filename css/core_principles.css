@@ -10,4 +10,8 @@
   border-style: solid;
   font-size: 4.5rem;
   text-align: center;
+  border-radius: 10px;
+  border-width: 0.05rem;
+  border-color: rgb(55, 57, 57);
+  background-color: rgb(64, 65, 66);
 }

@@ -2,10 +2,15 @@
   padding: 2.5rem;
   padding-top: 15rem;
   display: grid;
-  grid-template-rows: 0.2fr 1fr;
+  grid-template-rows: 0.3fr 1fr;
   border-style: solid;
   margin: 3rem;
   text-align: center;
+}
+
+.reachout-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #name-heading {
@@ -24,7 +29,7 @@
 
 #name-audio-button:hover {
   transition: box-shadow 0.2s ease;
-  box-shadow: 0 0 0.7rem black;
+  box-shadow: 0 0 0.7rem rgb(225, 220, 220);
 }
 
 #intro-list {
@@ -36,5 +41,4 @@
 
 #intro-list li {
   margin-bottom: 1rem;
-
 }
