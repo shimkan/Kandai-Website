@@ -10,20 +10,20 @@
 
 .reachout-logo-box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.33fr 0.33fr 0.33fr;
   margin: 1rem;
 }
 
-.linkedin-logo {
-  justify-self: end;
+.social-logos {
+  transition: transform 0.2s ease 0s;
 }
 
-.github-logo {
+.social-logos:hover {
+  transform: translateY(-10px);
+}
+
+#github-logo {
   margin-top: 0.4rem;
-}
-
-.gmail-logo {
-  justify-self: start;
 }
 
 #name-heading {
@@ -43,6 +43,8 @@
 #name-audio-button:hover {
   transition: box-shadow 0.2s ease;
   box-shadow: 0 0 0.7rem rgb(225, 220, 220);
+  transition: transform 0.2s ease 0s;
+  transform: translateY(-10px);
 }
 
 #intro-list {
