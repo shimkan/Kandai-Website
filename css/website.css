@@ -14,6 +14,26 @@ body {
   margin: 0rem;
 }
 
+/* For older browsers, add vendor prefixes: */
+
+body::-webkit-scrollbar {
+  width: 1.5rem;
+  /* Adjust scrollbar width if needed */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #817d7d;
+  margin: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #3f3d3d;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(196, 193, 193);
+}
+
 .first-row {
   display: flex;
   flex-direction: row;
