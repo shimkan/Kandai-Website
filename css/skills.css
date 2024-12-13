@@ -1,7 +1,7 @@
 .tech-skills {
   padding: 2rem;
-  margin-top: 0rem;
   margin: 3rem;
+  margin-top: 0rem;
 }
 
 #tech-skill-title {
@@ -9,6 +9,8 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
+  animation: slideInTop 2s ease-in-out;
+  filter: drop-shadow(0 0 0.3rem rgb(225, 220, 220));
 }
 
 .skills-grid {
@@ -21,7 +23,19 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .skills-images {
   margin: 2rem;
   place-self: center;
+  animation: slideInTop 1s ease-in-out;
+  filter: drop-shadow(0 0 0.3rem rgb(225, 220, 220));
 }

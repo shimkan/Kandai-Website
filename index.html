@@ -7,7 +7,8 @@
     <link href="css/website.css" type="text/css" rel="stylesheet" />
     <link href="css/skills.css" type="text/css" rel="stylesheet" />    
     <link href="css/core_principles.css" type="text/css" rel="stylesheet" />
-    <link href="css/top_bar.css" type="text/css" rel="stylesheet" />  
+    <link href="css/top_bar.css" type="text/css" rel="stylesheet" /> 
+    <link href="css/utils.css" type="text/css" rel="stylesheet" />  
     <title>
       Kandai Shimada Website
     </title> 
@@ -28,30 +29,42 @@
               Kandai Shimada<button id="name-audio-button"></button>
               <audio id="audio-name" src="audio/Bee Gees - Stayin' Alive (Official Video).mp3"></audio>
             </h3>
-            <ul id = "intro-list">
+            <ul class="dynamic-text">
               <li>BS | Electrical and Computer Engineering</li>
               <li>University of Washington | December 2024</li>
-              <li>Current: Data Engineer @ Astrolabe </li>
+              <li>Current: Data Engineer @ Astrolabe</li>
             </ul>
           </div>
           <div class="reachout-logo-box">
             <div style=" justify-self: end;">
-              <img class="social-logos" id="linkedin-logo"
-                   loading="lazy"
-                   alt="LinkedIn"
-                   src="images/social-logos/icons8-linkedin-48.png">
+              <a href="https://www.linkedin.com/in/kandai-shimada-63a645187/" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <img class="social-logos" id="linkedin-logo"
+                    loading="lazy"
+                    alt="LinkedIn"
+                    src="images/social-logos/icons8-linkedin-48.png">
+              </a>
             </div>
             <div>
-              <img class="social-logos" id="github-logo"
-                   loading="lazy"
-                   alt="github"
-                   src="images/social-logos/icons8-github-40.png">
+              <a href="https://github.com/shimkan" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                  <img class="social-logos" id="github-logo"
+                      loading="lazy"
+                      alt="github"
+                      src="images/social-logos/icons8-github-40.png">
+              </a>
             </div>
             <div style=" justify-self: start;">
-              <img class="social-logos" id="gmail-logo"
-                   loading="lazy"
-                   alt="gmail"
-                   src="images/social-logos/icons8-gmail-48.png"> 
+              <a href="mailto:kandai2003@gmail.com" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <img class="social-logos" id="gmail-logo"
+                    loading="lazy"
+                    alt="gmail"
+                    src="images/social-logos/icons8-gmail-48.png"> 
+              </a>
             </div>
           </div>
         </div>
@@ -97,8 +110,8 @@
               src="images/skill_logos/icons8-css-96.png">
               <img class="skills-images"
               loading="lazy"
-              alt="fast-API"
-              src="images/skill_logos/fast_api (1).png">
+              alt="flask"
+              src="images/skill_logos/icons8-flask-100.png">
             </div>
             <div class="skills-grid-rows" id="skills-grid-fourth-row">
               <img class="skills-images"
@@ -118,26 +131,5 @@
         </div>
       </div>
     </div>
-
-    <!-- second section: Core Principles -->
-    <div class="second-page" style="padding:5rem;">
-      <h1 style="text-align:center;
-                 font-size: 7rem;
-                 margin-top: 5rem;">
-                 Core Principles
-      </h1>
-      <div class="core-principles">
-        <div class="ind-principles" id="principle 1">
-          <p>working backwards</p>
-        </div>
-        <div class="ind-principles" id="principle 2">
-          <p>set extreme deadlines</p>
-        </div>
-        <div class="ind-principles" id="principle 3">
-          <p>consistent feedback</p>
-        </div>
-      </div>
-    </div>
-  
   </body>
 </html>

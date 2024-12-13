@@ -4,6 +4,7 @@
   display: grid;
   grid-template-rows: 0.3fr 1fr;
   margin: 3rem;
+  margin-top: 0rem;
   text-align: center;
 }
 
@@ -15,6 +16,8 @@
 
 .social-logos {
   transition: transform 0.2s ease 0s;
+  filter: drop-shadow(0 0 0.3rem rgb(225, 220, 220));
+  animation: slideInTop 1.2s ease-in-out;
 }
 
 .social-logos:hover {
@@ -28,6 +31,8 @@
 #name-heading {
   font-size: 5.5rem;
   margin: 0rem;
+  filter: drop-shadow(0 0 0.3rem rgb(225, 220, 220));
+  animation: slideInTop 2s ease-in-out;
 }
 
 #name-audio-button {
@@ -46,13 +51,15 @@
   transform: translateY(-10px);
 }
 
-#intro-list {
+.dynamic-text {
   list-style-type: none;
   padding: 1rem;
   margin: 0.5rem;
   font-size: 2.3rem;
+  text-align: center;
+  animation: slideInTop 1.7s ease-in-out;
 }
 
-#intro-list li {
-  margin-bottom: 1rem;
+.dynamic-text li {
+  padding: 0.5rem;
 }
