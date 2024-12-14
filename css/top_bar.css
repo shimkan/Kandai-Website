@@ -51,8 +51,6 @@
   color: black;
   box-shadow: 0 0.4rem 1.2rem rgb(101, 100, 100);
   border-radius: 0.5rem;
-  justify-items: center;
-  left: 55rem;
 }
 
 .drop-down li {
