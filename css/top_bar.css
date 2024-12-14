@@ -1,13 +1,62 @@
-.top-bar-options {
+.nav-bar-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  font-size: 2rem;
 }
 
-.top-tab {
-  margin: 11rem;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-  font-size: 2.5rem;
+.nav-bar {
+  margin-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  background: #cdcaca;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 1.2rem rgb(101, 100, 100);
   animation: slideInTop 2.3s ease-in-out;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10rem;
+  justify-content: space-evenly;
+  padding: 0rem;
+}
+
+.nav-link {
+  list-style: none;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav-link a {
+  text-decoration: none;
+}
+
+.nav-link a:visited {
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: #858383;
+  color: #545151;
+  border-radius: 0.5rem;
+}
+
+.drop-down {
+  list-style: none;
+  position: absolute;
+  padding: 0.5rem 0rem;
+  margin: 0.5rem -0.5rem;
+  background: #a4a2a2;
+  color: black;
+  box-shadow: 0 0.4rem 1.2rem rgb(101, 100, 100);
+  border-radius: 0.5rem;
+  display: none;
+}
+
+.drop-down li {
+  margin: 1rem;
+}
+
+.experiences:hover .drop-down {
+  display: block;
 }

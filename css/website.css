@@ -1,4 +1,13 @@
 /* resetting default margins */
+
+/*
+FOR TESTING PURPOSES
+*/
+* {
+  animation: none !important;
+  transition: none !important;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -12,6 +21,7 @@ body {
   font-family: source_code_proregular, monospace;
   font-size: 1.2rem;
   margin: 0rem;
+  background-color: #858383;
 }
 
 body::-webkit-scrollbar {
@@ -42,7 +52,6 @@ body::-webkit-scrollbar-thumb:hover {
 
 .first-page {
   /*background-image: url(../images/background/background.jpg);*/
-  background-color: #858383;
   color: rgb(255, 255, 255);
 }
 
