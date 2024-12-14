@@ -1,6 +1,6 @@
 .intro-box {
   padding: 2.5rem;
-  padding-top: 15rem;
+  padding-top: 23rem;
   display: grid;
   grid-template-rows: 0.3fr 1fr;
   margin: 3rem;
@@ -49,6 +49,7 @@
   box-shadow: 0 0 0.7rem rgb(225, 220, 220);
   transition: transform 0.2s ease 0s;
   transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .dynamic-text {

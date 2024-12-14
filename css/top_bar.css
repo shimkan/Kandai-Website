@@ -8,9 +8,8 @@
   margin-top: 2rem;
   padding-left: 10rem;
   padding-right: 10rem;
-  background: #cdcaca;
   border-radius: 1rem;
-  box-shadow: 0 0.4rem 1.2rem rgb(101, 100, 100);
+  box-shadow: 0 0.4rem 1.2rem rgb(70, 69, 69);
   animation: slideInTop 2.3s ease-in-out;
 }
 
@@ -25,38 +24,49 @@
   list-style: none;
   justify-content: center;
   cursor: pointer;
+  transition: color 0.3s ease-in-out 0s;
 }
 
 .nav-link a {
   text-decoration: none;
+  filter: drop-shadow(0 0 0.2rem rgb(200, 198, 198));
+  font-size: 2.2rem;
+  transition: color 0.2s ease-in 0s;
 }
 
 .nav-link a:visited {
-  color: black;
+  color: white;
 }
 
-.nav-link:hover {
-  background-color: #858383;
-  color: #545151;
-  border-radius: 0.5rem;
+.nav-link a:hover {
+  color: #4f4d4d;
 }
 
 .drop-down {
   list-style: none;
   position: absolute;
-  padding: 0.5rem 0rem;
-  margin: 0.5rem -0.5rem;
+  margin: 0rem;
+  padding: 0rem;
   background: #a4a2a2;
   color: black;
   box-shadow: 0 0.4rem 1.2rem rgb(101, 100, 100);
   border-radius: 0.5rem;
-  display: none;
+  justify-items: center;
+  left: 55rem;
 }
 
 .drop-down li {
   margin: 1rem;
 }
 
+.experiences .drop-down {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out 0s;
+  margin-top: 0.5rem;
+}
+
 .experiences:hover .drop-down {
-  display: block;
+  visibility: visible;
+  opacity: 1;
 }
