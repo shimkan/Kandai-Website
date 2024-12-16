@@ -2,7 +2,7 @@
   padding: 2rem;
   margin: 3rem;
   margin-top: 2rem;
-  margin-left: 0rem;
+  margin-left: 3rem;
   padding-left: 0rem;
 }
 
@@ -18,7 +18,7 @@
 .skills-grid {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  width: 50rem;
+  width: 45rem;
   row-gap: 2rem;
 }
 
