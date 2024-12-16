@@ -18,7 +18,7 @@
 .skills-grid {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  width: 44rem;
+  width: 50rem;
   row-gap: 2rem;
 }
 
@@ -68,15 +68,12 @@
 
 .secondrowimages {
   position: absolute;
-  margin: 5rem;
-  top: -4rem;
   right: 100%;
   animation: scrollRight 24s linear infinite;
 }
 
 .thirdrowimages {
   position: absolute;
-  margin: 2rem;
   left: 100%;
   animation: scrollLeft 24s linear infinite;
 }
