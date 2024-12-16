@@ -6,10 +6,9 @@
 
 .nav-bar {
   margin-top: 2rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding: 3rem 10rem 3rem 10rem;
   border-radius: 1rem;
-  box-shadow: 0 0.4rem 1.2rem rgb(70, 69, 69);
+  box-shadow: 0 0.4rem 1.2rem rgb(44, 43, 43);
   animation: slideInTop 2.3s ease-in-out;
 }
 
@@ -29,9 +28,9 @@
 
 .nav-link a {
   text-decoration: none;
-  filter: drop-shadow(0 0 0.2rem rgb(200, 198, 198));
+  /*filter: drop-shadow(0 0 0.2rem rgb(200, 198, 198));*/
   font-size: 2.2rem;
-  transition: color 0.2s ease-in 0s;
+  transition: color 0.01s ease-in 0s;
 }
 
 .nav-link a:visited {
@@ -39,7 +38,7 @@
 }
 
 .nav-link a:hover {
-  color: #4f4d4d;
+  color: #918f8f;
 }
 
 .drop-down {
@@ -60,7 +59,7 @@
 .experiences .drop-down {
   visibility: hidden;
   opacity: 0;
-  transition: opacity 0.2s ease-in-out 0s;
+  transition: opacity 0.1s ease-in-out 0s;
   margin-top: 0.5rem;
 }
 

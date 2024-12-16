@@ -7,3 +7,26 @@
     transform: translateY(0);
   }
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -11rem;
+  }
+}
+
+
+@keyframes scrollRight {
+  to {
+    right: -11rem;
+  }
+}

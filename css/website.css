@@ -12,6 +12,10 @@ html {
   font-size: 62.5%;
 }
 
+* {
+  margin: 0;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -21,7 +25,7 @@ body {
   font-family: source_code_proregular, monospace;
   font-size: 1.2rem;
   margin: 0rem;
-  background-color: #858383;
+  background-color: #232323;
 }
 
 body::-webkit-scrollbar {
