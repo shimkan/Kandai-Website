@@ -1,16 +1,26 @@
+.core-principles-title {
+  padding-top: 10rem;
+  font-weight: bold;
+  font-size: 8rem;
+  text-align: center;
+  color: bisque;
+  filter: drop-shadow(0 2.5rem 1rem rgb(19, 18, 18));
+}
+
 .box-area {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 2rem;
   place-items: center;
   padding: 7rem;
+
 }
 
 .box {
   border-radius: 3rem;
   position: relative;
   overflow: hidden;
-  box-shadow: 0.5rem 0.5rem 1.5rem rgb(112, 111, 111);
+  box-shadow: 1rem 1rem 1.5rem rgb(0, 0, 0);
 }
 
 .box img {
@@ -18,6 +28,19 @@
   border-radius: 3rem;
   display: block;
   transition: transform 0.5s;
+}
+
+.hovermebox {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-style: solid;
+  border-radius: 2rem;
+  padding: 1rem;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
 .overlay {
@@ -58,4 +81,8 @@
 
 .box:hover .overlay {
   height: 50rem;
+}
+
+.box:hover .hovermebox {
+  opacity: 0;
 }
