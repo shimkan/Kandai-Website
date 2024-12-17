@@ -25,7 +25,7 @@ body {
   font-family: source_code_proregular, monospace;
   font-size: 1.2rem;
   margin: 0rem;
-  background-color: #232323;
+  /*background-color: #2a2929;*/
 }
 
 body::-webkit-scrollbar {
@@ -38,7 +38,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-track {
-  background-color: #3f3d3d;
+  background-color: #464444;
 }
 
 body::-webkit-scrollbar-thumb:hover {
@@ -56,7 +56,11 @@ body::-webkit-scrollbar-thumb:hover {
 
 .first-page {
   /*background-image: url(../images/background/background.jpg);*/
-  color: rgb(255, 255, 255);
+  background-color: #2a2929;
+}
+
+.second-page {
+  background-color: #2a2929;
 }
 
 @font-face {
