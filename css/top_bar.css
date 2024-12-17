@@ -30,12 +30,10 @@
   text-decoration: none;
   /*filter: drop-shadow(0 0 0.2rem rgb(200, 198, 198));*/
   font-size: 2.2rem;
+  color: white;
   transition: color 0.01s ease-in 0s;
 }
 
-.nav-link a:visited {
-  color: rgb(165, 28, 28);
-}
 
 .nav-link a:hover {
   color: #918f8f;
