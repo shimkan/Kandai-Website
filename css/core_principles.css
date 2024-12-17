@@ -1,3 +1,10 @@
+.core-principles {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+
+
 .core-principles-title {
   padding-top: 10rem;
   font-weight: bold;
