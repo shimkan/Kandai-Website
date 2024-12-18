@@ -41,12 +41,14 @@
 
 .hovermebox {
   position: absolute;
+  color: rgb(0, 0, 0);
   top: 1rem;
   left: 1rem;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   border-style: solid;
   border-radius: 2rem;
+  box-shadow: 0rem 0rem 1rem rgb(0, 0, 0);
   padding: 1rem;
   opacity: 1;
   transition: opacity 0.3s ease;
