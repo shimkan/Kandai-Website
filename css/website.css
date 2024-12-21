@@ -25,7 +25,7 @@ body {
   font-family: source_code_proregular, monospace;
   font-size: 1.2rem;
   margin: 0rem;
-  /*background-color: #2a2929;*/
+  background-color: #2a2929;
 }
 
 body::-webkit-scrollbar {
@@ -61,7 +61,9 @@ body::-webkit-scrollbar-thumb:hover {
 
 .second-page {
   background-color: #2a2929;
+  margin-top: 10rem;
 }
+
 
 @font-face {
   font-family: 'source_code_proregular';
@@ -76,4 +78,11 @@ body::-webkit-scrollbar-thumb:hover {
 
 a img {
   cursor: pointer;
+}
+
+.scroll-down-logo {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-bottom: 5rem;
 }
