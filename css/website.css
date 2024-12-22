@@ -25,7 +25,7 @@ body {
   font-family: source_code_proregular, monospace;
   font-size: 1.2rem;
   margin: 0rem;
-  background-color: #000000;
+  background-color: #0b0b0b;
 }
 
 body::-webkit-scrollbar {
@@ -56,11 +56,11 @@ body::-webkit-scrollbar-thumb:hover {
 
 .first-page {
   /*background-image: url(../images/background/background.jpg);*/
-  background-color: #000000;
+  background-color: #0b0b0b;
 }
 
 .second-page {
-  background-color: #000000;
+  background-color: #0b0b0b;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
