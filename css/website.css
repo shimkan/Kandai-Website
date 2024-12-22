@@ -1,8 +1,5 @@
-/* resetting default margins */
-
 /*
 FOR TESTING PURPOSES
-
 * {
   animation: none !important;
   transition: none !important;
@@ -16,15 +13,9 @@ html {
   margin: 0;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 body {
   font-family: source_code_proregular, monospace;
   font-size: 1.2rem;
-  margin: 0rem;
   background-color: #0b0b0b;
 }
 
@@ -45,7 +36,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: rgb(196, 193, 193);
 }
 
-.first-row {
+.first-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
