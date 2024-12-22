@@ -1,0 +1,65 @@
+.experiences {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+
+.nsf-wave-gauge {
+  display: block;
+  margin: 20rem;
+  padding: 2rem;
+  margin-top: 0rem;
+  transition: color 0.5s ease-in-out;
+}
+
+.experiences h1 {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  font-weight: bold;
+  font-size: 8rem;
+  text-align: center;
+  color: bisque;
+  filter: drop-shadow(0 2.5rem 1rem rgb(19, 18, 18));
+}
+
+.box-content {
+  border-radius: 3rem;
+  box-shadow: 0rem 0.5rem 2rem rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  /* justify-content -> align items on main/horizontal axis*/
+  /* align-items -> align items on cross/vertical axis (flex-end, flex-start, center)*/
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.nsf-image {
+  width: 50rem;
+  height: 30rem;
+  padding: 3rem;
+  border-radius: 50px;
+  filter: drop-shadow(0 0 1.5rem rgb(0, 0, 0));
+  mask-image: linear-gradient(to right,
+      transparent,
+      black 20%,
+      black 80%,
+      transparent);
+}
+
+.nsf-description {
+  align-self: flex-start;
+  flex-grow: 1;
+  padding: 3rem;
+}
+
+.nsf-description span {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.nsf-description p {
+  padding-top: 3rem;
+}

@@ -42,3 +42,9 @@
     scale: 1;
   }
 }
+
+@property --fill {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: 0%;
+}
