@@ -7,9 +7,8 @@
 .nsf-wave-gauge {
   display: block;
   margin: 20rem;
-  padding: 2rem;
+  padding: 4rem;
   margin-top: 0rem;
-  transition: color 0.5s ease-in-out;
 }
 
 .experiences h1 {
@@ -24,29 +23,32 @@
 
 .box-content {
   border-radius: 3rem;
-  box-shadow: 0rem 0.5rem 2rem rgb(0, 0, 0);
   color: white;
+  background-color: #2a2929;
   display: flex;
   flex-direction: row;
-  gap: 1rem;
   /* justify-content -> align items on main/horizontal axis*/
   /* align-items -> align items on cross/vertical axis (flex-end, flex-start, center)*/
   justify-content: flex-start;
   align-items: center;
   align-content: center;
+  box-shadow: 0rem 0rem 2rem rgb(0, 0, 0);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.box-content:hover {
+  box-shadow: 0rem 0rem 2rem rgb(28, 189, 100);
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .nsf-image {
-  width: 50rem;
+  width: 47rem;
   height: 30rem;
   padding: 3rem;
+  padding-right: 0rem;
   border-radius: 50px;
   filter: drop-shadow(0 0 1.5rem rgb(0, 0, 0));
-  mask-image: linear-gradient(to right,
-      transparent,
-      black 20%,
-      black 80%,
-      transparent);
 }
 
 .nsf-description {
@@ -57,9 +59,15 @@
 
 .nsf-description span {
   font-size: 3.5rem;
+  font-weight: bold;
+  color: bisque;
+  filter: drop-shadow(0 1rem 1rem rgb(19, 18, 18));
   text-align: center;
 }
 
 .nsf-description p {
   padding-top: 3rem;
+  font-size: 2rem;
+  word-spacing: 1rem;
+  line-height: 4rem;
 }
