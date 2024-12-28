@@ -17,7 +17,15 @@ html {
 body {
   font-family: source_code_proregular, monospace;
   font-size: 1.2rem;
-  background-color: #0b0b0b;
+  background-color: #000000;
+}
+
+.corner-image-background {
+  position: fixed;
+  left: 85%;
+  transform: rotate(-135deg);
+  height: 40%;
+  top: -10%;
 }
 
 body::-webkit-scrollbar {
@@ -48,11 +56,11 @@ body::-webkit-scrollbar-thumb:hover {
 
 .first-page {
   /*background-image: url(../images/background/background.jpg);*/
-  background-color: #0b0b0b;
+  background-color: #000000;
 }
 
 .second-page {
-  background-color: #0b0b0b;
+  background-color: #000000;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
