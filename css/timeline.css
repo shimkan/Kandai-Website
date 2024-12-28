@@ -70,7 +70,7 @@
   position: absolute;
   height: 5rem;
   width: 5rem;
-  background: linear-gradient(rgb(81, 81, 83), rgb(186, 185, 185));
+  /*background: linear-gradient(rgb(81, 81, 83), rgb(186, 185, 185));*/
   top: 0;
   left: -2.1rem;
   border-radius: 50%;
@@ -89,6 +89,30 @@
   border-radius: 50%;
   z-index: 1;
   filter: drop-shadow(0 0 0.3rem rgb(225, 220, 220));
+}
+
+.container:nth-child(1)::before {
+  background-image: url(../images/company-logos/astrolabe_logo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container:nth-child(2)::before {
+  background-image: url(../images/company-logos/amazon_logo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container:nth-child(3)::before {
+  background-image: url(../images/company-logos/magnix_logo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container:nth-child(4)::before {
+  background-image: url(../images/company-logos/nsf_logo.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .text-content {

@@ -6,16 +6,16 @@
 
 .nav-bar {
   margin-top: 2rem;
-  padding: 3rem 10rem 3rem 10rem;
-  border-radius: 1rem;
-  box-shadow: 0 0.4rem 1.2rem rgb(0, 0, 0);
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 3rem 0rem 3rem 0rem;
   animation: slideInTop 2.3s ease-in-out;
 }
 
 .nav-links {
   display: flex;
   gap: 10rem;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 0rem;
 }
 
@@ -37,31 +37,4 @@
 
 .nav-link a:hover {
   color: #918f8f;
-}
-
-.drop-down {
-  list-style: none;
-  position: absolute;
-  margin: 0rem;
-  padding: 0rem;
-  background: #a4a2a2;
-  color: black;
-  box-shadow: 0 0.4rem 1.2rem rgb(101, 100, 100);
-  border-radius: 0.5rem;
-}
-
-.drop-down li {
-  margin: 1rem;
-}
-
-.nav-link .drop-down {
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.1s ease-in-out 0s;
-  margin-top: 0.5rem;
-}
-
-.nav-link:hover .drop-down {
-  visibility: visible;
-  opacity: 1;
 }
