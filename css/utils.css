@@ -48,7 +48,7 @@
 @keyframes slideFromLeft {
   from {
     opacity: 0;
-    transform: translateX(-3rem);
+    transform: translateX(-7rem);
   }
 
   to {
@@ -60,7 +60,7 @@
 @keyframes slideFromRight {
   from {
     opacity: 0;
-    transform: translateX(3rem);
+    transform: translateX(7rem);
   }
 
   to {

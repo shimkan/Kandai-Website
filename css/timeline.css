@@ -43,24 +43,26 @@
   right: -50%;
 }
 
-.container:nth-child(odd) {
-  opacity: 0;
-  animation: slideFromLeft 0.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
-  animation-timeline: view();
-}
-
-.container:nth-child(even) {
-  opacity: 0;
-  animation: slideFromRight cubic-bezier(0.25, 1, 0.5, 1) forwards;
-  animation-timeline: view();
-  animation-range: contain 10px;
-}
-
+.container:nth-child(odd),
+.container:nth-child(even),
 .container:last-child {
   opacity: 0;
-  animation: slideFromRight cubic-bezier(0.25, 1, 0.5, 1) forwards;
-  animation-timeline: view();
-  animation-range: contain 10px;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.container:nth-child(odd) {
+  animation-name: slideFromLeft;
+}
+
+.container:nth-child(even),
+.container:last-child {
+  animation-name: slideFromRight;
+}
+
+.container.animated {
+  opacity: 1;
 }
 
 .container:nth-child(even)::before {
