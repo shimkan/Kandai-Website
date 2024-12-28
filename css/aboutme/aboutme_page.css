@@ -57,14 +57,13 @@ body::-webkit-scrollbar-thumb:hover {
   font-style: normal;
 }
 
-/*previous error TODO: get this to be scroll and dissapear*/
 .corner-image-background {
-  position: fixed;
-  left: 85%;
-  transform: rotate(-135deg);
+  position: absolute;
+  left: 0rem;
+  transform: rotate(135deg);
   height: 40%;
   top: -10%;
-  z-index: -1;
+  animation: appear-1 3s ease-in;
 }
 
 .rights-reserved {
