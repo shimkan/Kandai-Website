@@ -1,5 +1,6 @@
 .experiences-title {
   margin: 5rem;
+  margin-top: 12rem;
   padding-top: 2rem;
   font-weight: bold;
   font-size: 8rem;
@@ -16,6 +17,7 @@
   width: 90%;
   margin: 10rem auto;
   position: relative;
+  margin-bottom: 40rem;
 }
 
 .timeline::after {
@@ -27,7 +29,6 @@
   height: 100%;
   top: 0;
   border-radius: 50px;
-  animation: LineAnimated 4s linear forwards;
   z-index: -1;
 }
 
@@ -36,13 +37,30 @@
   margin: 0rem;
   position: relative;
   padding: 3rem;
-  animation: Animate-Container 1s linear forwards;
-  opacity: 0;
-  animation-delay: var(--dly);
 }
 
 .container:nth-child(even) {
   right: -50%;
+}
+
+.container:nth-child(odd) {
+  opacity: 0;
+  animation: slideFromLeft 0.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  animation-timeline: view();
+}
+
+.container:nth-child(even) {
+  opacity: 0;
+  animation: slideFromRight cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  animation-timeline: view();
+  animation-range: contain 10px;
+}
+
+.container:last-child {
+  opacity: 0;
+  animation: slideFromRight cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  animation-timeline: view();
+  animation-range: contain 10px;
 }
 
 .container:nth-child(even)::before {
@@ -79,11 +97,48 @@
 }
 
 .text-content h1 {
-  padding: 2rem;
+  padding: 1rem;
   font-size: 3rem;
 }
 
 .text-content p {
   font-size: 2rem;
-  padding: 2rem;
+  padding: 1rem;
+  line-height: 3rem;
+}
+
+.time-range-1::before {
+  content: "October 2024 ~ PRESENT";
+  position: absolute;
+  font-size: 2rem;
+  top: 0rem;
+  left: 8rem;
+  font-style: italic;
+}
+
+.time-range-2::before {
+  content: "July 2024 ~ Sep 2024";
+  position: absolute;
+  font-size: 2rem;
+  top: 0rem;
+  left: 8rem;
+  font-style: italic;
+}
+
+.time-range-3::before {
+  content: "Jan 2024 ~ June 2024";
+  position: absolute;
+  font-size: 2rem;
+  top: 0rem;
+  left: 8rem;
+  font-style: italic;
+}
+
+.time-range-4::before {
+  content: "June 2022 ~ Jan 2024";
+  position: absolute;
+  font-size: 2rem;
+  top: 0rem;
+  left: 8rem;
+  font-style: italic;
 }

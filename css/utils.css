@@ -1,3 +1,4 @@
+/* Intro slide in animation */
 @keyframes slideInTop {
   from {
     transform: translateY(-600px);
@@ -18,12 +19,12 @@
   }
 }
 
+/* for tech skills scroll animation */
 @keyframes scrollLeft {
   to {
     left: -11rem;
   }
 }
-
 
 @keyframes scrollRight {
   to {
@@ -31,6 +32,7 @@
   }
 }
 
+/* core principles scroll effect*/
 @keyframes appear {
   from {
     opacity: 0;
@@ -43,24 +45,26 @@
   }
 }
 
-@keyframes LineAnimated {
-  from {
-    height: 0%;
-  }
-
-  to {
-    height: 100%;
-  }
-}
-
-@keyframes Animate-Container {
+@keyframes slideFromLeft {
   from {
     opacity: 0;
-    transform: translateY(-3rem);
+    transform: translateX(-3rem);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0)
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0)
   }
 }
