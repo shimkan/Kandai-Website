@@ -17,7 +17,7 @@
   width: 90%;
   margin: 10rem auto;
   position: relative;
-  margin-bottom: 40rem;
+  margin-bottom: 10rem;
 }
 
 .timeline::after {
@@ -48,7 +48,7 @@
 .container:last-child {
   opacity: 0;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
 }
 
@@ -96,6 +96,7 @@
   background: rgb(35, 34, 34);
   border-radius: 5rem;
   padding: 2rem;
+  justify-items: center;
 }
 
 .text-content h1 {
@@ -105,8 +106,10 @@
 
 .text-content p {
   font-size: 2rem;
-  padding: 1rem;
+  padding: 2rem;
   line-height: 3rem;
+  text-align: center;
+
 }
 
 .time-range-1::before {
