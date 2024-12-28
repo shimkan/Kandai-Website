@@ -92,25 +92,25 @@
 }
 
 .container:nth-child(1)::before {
-  background-image: url(../images/company-logos/astrolabe_logo.png);
+  background-image: url(../../images/company-logos/astrolabe_logo.png);
   background-size: cover;
   background-position: center;
 }
 
 .container:nth-child(2)::before {
-  background-image: url(../images/company-logos/amazon_logo.png);
+  background-image: url(../../images/company-logos/amazon_logo.png);
   background-size: cover;
   background-position: center;
 }
 
 .container:nth-child(3)::before {
-  background-image: url(../images/company-logos/magnix_logo.png);
+  background-image: url(../../images/company-logos/magnix_logo.png);
   background-size: cover;
   background-position: center;
 }
 
 .container:nth-child(4)::before {
-  background-image: url(../images/company-logos/nsf_logo.png);
+  background-image: url(../../images/company-logos/nsf_logo.png);
   background-size: cover;
   background-position: center;
 }
