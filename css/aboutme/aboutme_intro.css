@@ -19,7 +19,7 @@
   align-items: center;
   padding-top: 2rem;
   padding-left: 15rem;
-  padding-right: 2rem;
+  padding-right: 5rem;
 }
 
 .wrapper-inside {
@@ -46,7 +46,7 @@
   object-position: center;
   object-fit: cover;
   border-radius: 50px;
-  zoom: 1.2;
+  zoom: 1.1;
 }
 
 .static-text {

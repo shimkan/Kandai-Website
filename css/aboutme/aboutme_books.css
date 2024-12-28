@@ -1,0 +1,9 @@
+.book-section {
+  margin-top: 15rem;
+}
+
+.book-section h1 {
+  color: red;
+  font-size: 8rem;
+  text-align: center;
+}
