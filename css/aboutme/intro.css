@@ -1,0 +1,83 @@
+.intro {
+  display: grid;
+  grid-template-rows: 0.7fr 0.6fr;
+  margin-top: 0rem;
+  justify-content: center;
+}
+
+.wrapper {
+  display: inline-flex;
+  justify-content: center;
+  padding-top: 10rem;
+  padding-left: 13rem;
+}
+
+.static-text {
+  color: white;
+  font-size: 6rem;
+  line-height: 6rem;
+  height: 6rem;
+}
+
+.dynamic-texts {
+  margin-left: 3rem;
+  padding-right: 2rem;
+  line-height: 6rem;
+  height: 8rem;
+  overflow: hidden;
+}
+
+.dynamic-texts li {
+  color: red;
+  list-style: none;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  animation: slide-text-up 20s steps(4) infinite;
+  position: relative;
+  top: 0;
+}
+
+@keyframes slide-text-up {
+  100% {
+    top: -36rem;
+  }
+}
+
+.dynamic-texts li span {
+  position: relative;
+}
+
+.dynamic-texts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border-left: 0.2rem solid red;
+  animation: typing 5s steps(9, end) infinite;
+}
+
+@keyframes typing {
+
+  0%,
+  30% {
+    left: 0;
+  }
+
+  60%,
+  90% {
+    left: 100%;
+  }
+
+  100% {
+    left: 30%;
+  }
+}
+
+.intro-image {
+  height: 60rem;
+  width: 100rem;
+  border-radius: 10rem;
+  align-items: center;
+}
