@@ -1,0 +1,40 @@
+.amazon-internal-tool {
+  color: white;
+  display: grid;
+  grid-template-columns: 0.75fr 0.6fr;
+  margin-top: 10rem;
+  animation: appear-1 2s ease-in-out;
+}
+
+.amz-info {
+  justify-self: center;
+  padding-top: 10rem;
+  justify-self: flex-start;
+}
+
+#amz-header {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.amz-stats {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.amz-stats li {
+  margin: 1rem;
+}
+
+.amz-image {
+  width: auto;
+  height: 45rem;
+  border-radius: 10px;
+  margin-left: 30rem;
+  box-shadow: 0 0 2rem white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.amz-image:hover {
+  transform: scale(1.05);
+}
