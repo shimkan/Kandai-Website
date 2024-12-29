@@ -1,0 +1,42 @@
+.wave-gauge {
+  color: white;
+  display: grid;
+  grid-template-columns: 0.75fr 0.6fr;
+  margin-top: 7rem;
+  animation: appear-1 2s ease-in-out;
+}
+
+.wave-gauge-info {
+  justify-self: center;
+  padding-top: 10rem;
+  justify-self: flex-end;
+  padding-right: 10rem;
+}
+
+#wg-header {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.wg-stats {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.wg-stats li {
+  margin: 1rem;
+}
+
+.wave-gauge-image {
+  width: auto;
+  height: 45rem;
+  border-radius: 10px;
+  margin-right: 10rem;
+  box-shadow: 0 0 2rem white;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+
+.wave-gauge-image:hover {
+  transform: scale(1.05);
+}

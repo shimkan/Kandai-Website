@@ -1,0 +1,57 @@
+/*FOR TESTING PURPOSES
+* {
+  animation: none !important;
+  transition: none !important;
+}*/
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: source_code_proregular, monospace;
+  font-size: 1.2rem;
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #817d7d;
+  margin: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #464444;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(196, 193, 193);
+}
+
+@font-face {
+  font-family: 'source_code_proregular';
+  src: url('fonts/sourcecodepro-regular-webfont.eot');
+  src: url('fonts/sourcecodepro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/sourcecodepro-regular-webfont.woff2') format('woff2'),
+    url('fonts/sourcecodepro-regular-webfont.ttf') format('truetype'),
+    url('fonts/sourcecodepro-regular-webfont.svg#source_code_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rights-reserved {
+  color: white;
+  text-align: center;
+  margin-top: 25rem;
+  margin-bottom: 5rem;
+  font-size: 1.8rem;
+}

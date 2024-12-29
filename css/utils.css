@@ -80,3 +80,13 @@
     transform: translateX(0)
   }
 }
+
+@keyframes scaleup {
+  from {
+    scale: 1;
+  }
+
+  to {
+    scale: 1.1;
+  }
+}
