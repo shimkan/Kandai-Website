@@ -39,6 +39,11 @@
   line-height: 5rem;
 }
 
+.aboutme-quote-gif {
+  height: 5.5rem;
+  width: auto;
+}
+
 /* item 2 in grid */
 .aboutme-image {
   width: 45rem;
@@ -68,7 +73,7 @@
 }
 
 .dynamic-texts li {
-  color: red;
+  color: crimson;
   font-size: 6rem;
   list-style: none;
   position: relative;
