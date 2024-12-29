@@ -20,17 +20,6 @@ body {
   background-color: #000000;
 }
 
-.corner-image-background {
-  position: absolute;
-  left: 0rem;
-  transform: rotate(135deg);
-  height: 40%;
-  top: -10%;
-  animation: appear-1 3s ease-in;
-}
-
-
-
 body::-webkit-scrollbar {
   width: 1.5rem;
 }
