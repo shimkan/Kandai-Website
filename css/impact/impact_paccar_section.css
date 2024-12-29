@@ -1,0 +1,40 @@
+.pac-capstone-proj {
+  color: white;
+  display: grid;
+  grid-template-columns: 0.75fr 0.7fr;
+  margin-top: 10rem;
+  animation: appear-1 2s ease-in-out;
+}
+
+.pac-info {
+  justify-self: center;
+  padding-top: 10rem;
+  padding-left: 30rem;
+  justify-self: flex-start;
+}
+
+#pac-header {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.pac-stats {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.pac-stats li {
+  margin: 1rem;
+}
+
+.pac-image {
+  width: 55rem;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 2rem white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.pac-image:hover {
+  transform: scale(1.05);
+}
