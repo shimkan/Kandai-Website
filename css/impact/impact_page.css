@@ -18,6 +18,16 @@ body {
   font-family: source_code_proregular, monospace;
   font-size: 1.2rem;
   background-color: #000000;
+  position: relative;
+}
+
+.background-corner {
+  position: absolute;
+  z-index: -1;
+  transform: rotate(90deg);
+  top: -5rem;
+  left: -10rem;
+  animation: appear-1 2s ease-in-out;
 }
 
 body::-webkit-scrollbar {
