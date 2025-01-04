@@ -10,7 +10,7 @@
 .book-section h1 {
   color: crimson;
   font-size: 8rem;
-  margin-bottom: 8rem;
+  margin-bottom: 12rem;
   text-align: center;
 }
 
@@ -19,7 +19,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   column-gap: 0rem;
-  row-gap: 10rem;
+  row-gap: 14rem;
   justify-items: center;
 }
 

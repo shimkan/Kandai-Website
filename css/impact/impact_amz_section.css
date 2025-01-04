@@ -1,7 +1,7 @@
 .amazon-internal-tool {
   color: white;
   display: grid;
-  grid-template-columns: 0.75fr 0.6fr;
+  grid-template-columns: 0.75fr 0.75fr;
   margin-top: 10rem;
   animation: appear-1 2s ease-in-out;
 }
