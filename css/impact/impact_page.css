@@ -21,15 +21,6 @@ body {
   position: relative;
 }
 
-.background-corner {
-  position: absolute;
-  z-index: -1;
-  transform: rotate(90deg);
-  top: -5rem;
-  left: -10rem;
-  animation: appear-1 2s ease-in-out;
-}
-
 body::-webkit-scrollbar {
   width: 1.5rem;
 }
