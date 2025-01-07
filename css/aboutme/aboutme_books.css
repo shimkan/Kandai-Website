@@ -28,11 +28,11 @@
   filter: drop-shadow(0 0.5rem 1.5rem rgb(255, 2, 103));
   height: 50rem;
   width: auto;
+  transition: transform 0.2s ease-in-out;
 }
 
 .indiv-book:hover {
-  animation: scaleup 0.2s ease-in-out forwards;
-  cursor: pointer;
+  transform: scale(1.05);
 }
 
 #netflix-book,
