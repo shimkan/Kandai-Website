@@ -15,8 +15,7 @@
 /* item 1 in grid */
 .wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-items: center;
   padding-top: 2rem;
   padding-left: 15rem;
   padding-right: 5rem;
@@ -28,7 +27,6 @@
   padding-left: 10rem;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .aboutme-quote {
