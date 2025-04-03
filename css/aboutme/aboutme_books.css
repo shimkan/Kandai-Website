@@ -17,7 +17,7 @@
 .books-layout {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   column-gap: 0rem;
   row-gap: 14rem;
   justify-items: center;
