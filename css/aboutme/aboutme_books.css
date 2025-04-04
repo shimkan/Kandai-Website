@@ -40,9 +40,9 @@
   justify-self: flex-end;
 }
 
-#bookthief-book,
-#deadline-book {
+#pragprog-book {
   justify-self: flex-start;
+  width: 34rem;
 }
 
 /* end of file */
